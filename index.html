@@ -24,7 +24,7 @@
     <a-entity environment="preset:japan;dressingAmount:20;skyColor:#FFA69E"></a-entity>
 <!--Museum start-->
 <!-- Museum floor starts here -->
-<a-cylinder id="floor" position="0 0 0" radius="7.5" color="green" height="0.1"></a-cylinder>
+<a-cylinder id="floor" position="0 0 0" radius="7.5" color="black" height="0.1"></a-cylinder>
 <a-box id="wall1" position="0 1.473 4.907" rotation="0 0 0" scale="10 3 0.2" color="white"></a-box>
 <a-box id="wall2" position="0 1.473 -4.907" rotation="0 0 0" scale="10 3 0.2" color="white"></a-box>
 <a-box id="wall3" position="5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" color="white"></a-box>
@@ -36,11 +36,13 @@
 
 <!-- ART -->
 <a-plane id="art1" src="#art1" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-<a-plane id="art2" src="#art2" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-<a-plane id="art3" src="#art3" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-<a-plane id="art4" src="#art4" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+<a-plane id="art2" src="#art2" scale="2 2 0.05" rotation="0.000 90.000 0.000" position="-4.759 1.736 0.136"></a-plane>
+<a-plane id="art3" src="#art3" scale="2 2 0.05" rotation="0.000 180.000 0.000" position="-0.149 1.580 4.803"></a-plane>
+<a-plane id="art4" src="#art4" scale="2 2 0.05" rotation="0.000 -90.000 0.000" position="4.946 1.634 0.163"></a-plane>
 
-
+<!--3d object-->
+<a-obj-model id="3dModel1" src="images/tinker.obj" mtl="images/obj.mtl" position="2.982 1.287 -2.582" rotation="-90 0 0" scale="0.01 0.01 0.01"></a-obj-model>
+<a-box id="plinth" position="3.080 0.286 -2.601" scale=".5  2 .5" color="silver"></a-box>
 
 
 
